@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obter dados de NFS pelo XML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="principal">
+        <h1>Selecione os arquivos XML</h1>
+        <input type="file" name="file" id="file" multiple>
+        <br />
+        <hr />
+        <div id="resultado">
+        </div>
+        <input type="button" id="limpar" value="Limpar resultados">
+    </div>
+
+    <script src="./enviarArquivos.js"></script>
+    <script src="./limparResultados.js"></script>
+</body>
+
+</html>
