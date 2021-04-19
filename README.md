@@ -2,7 +2,10 @@
 
 Os dados que serão retornados são:
 * Nome cliente
+<<<<<<< HEAD
 * Numero de NF (new)
+=======
+>>>>>>> 1f3366ef5e65e9def052691fd77e8d6bfe8f0131
 * UF
 * Peso Bruto
 * Volume
@@ -23,8 +26,11 @@ O texto está separado por "|" para facilitar passar as informações para Excel
 
 Passando para Excel é só pedir para o texto ir para colunas e escolher "|" como separador
 
+<<<<<<< HEAD
 # IMPORTANTE!
 
 As consultas serão realizadas em xml que contenham as tags
 * xNome, UF, pesoB, qVol, vNF, nNF
 
+=======
+>>>>>>> 1f3366ef5e65e9def052691fd77e8d6bfe8f0131
