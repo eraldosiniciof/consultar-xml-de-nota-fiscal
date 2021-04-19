@@ -17,9 +17,11 @@ function handleFiles() {
                 let peso = xmlDoc.getElementsByTagName('pesoB')[0]
                 let qtde = xmlDoc.getElementsByTagName('qVol')[0]
                 let valor = xmlDoc.getElementsByTagName('vNF')[0]
+                let nf = xmlDoc.getElementsByTagName('nNF')[0]
 
                 result.innerHTML += `
                     ${dest.innerHTML} | 
+                    ${nf.innerHTML} |
                     ${uf.innerHTML} |
                     ${peso.innerHTML.replace('.', ',')} |
                     ${qtde.innerHTML} |

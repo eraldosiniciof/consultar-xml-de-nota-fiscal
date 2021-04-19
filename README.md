@@ -2,6 +2,7 @@
 
 Os dados que serão retornados são:
 * Nome cliente
+* Numero de NF (new)
 * UF
 * Peso Bruto
 * Volume
@@ -21,4 +22,9 @@ Logo após selecionar, as informações irão aparecer
 O texto está separado por "|" para facilitar passar as informações para Excel, por exemplo
 
 Passando para Excel é só pedir para o texto ir para colunas e escolher "|" como separador
+
+# IMPORTANTE!
+
+As consultas serão realizadas em xml que contenham as tags
+* xNome, UF, pesoB, qVol, vNF, nNF
 
