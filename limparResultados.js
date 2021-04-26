@@ -1,5 +1,2 @@
 const btnLimpar = document.querySelector('#limpar')
-btnLimpar.addEventListener('click', () => {
-    document.querySelector('#resultado')
-        .innerHTML = ''
-})
+btnLimpar.addEventListener('click', () => location.reload())
