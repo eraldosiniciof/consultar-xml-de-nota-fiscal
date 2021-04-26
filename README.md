@@ -15,13 +15,15 @@ Acessar o index.html
 
 Clicar em: Escolher arquivos
 
-Selecionar os arquivos .xml que deseja obter os dados
+Selecionar os arquivos .xml que deseja obter os dados (pode selecionar pela caixa de arquivos ou arrastando os arquivos)
 
 Logo após selecionar, as informações irão aparecer
 
-O texto está separado por "|" para facilitar passar as informações para Excel, por exemplo
+~~O texto está separado por "|" para facilitar passar as informações para Excel, por exemplo~~
+Uma tabela será criada, dinamicamente, com os dados dos arquivos xml
 
-Passando para Excel é só pedir para o texto ir para colunas e escolher "|" como separador
+~~Passando para Excel é só pedir para o texto ir para colunas e escolher "|" como separador~~
+Colar no Excel. Os dados serão atribuídos a cada célula separadamente.
 
 # IMPORTANTE!
 
