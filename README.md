@@ -1,14 +1,16 @@
 # CONSULTAR DADOS DA NOTA FISCAL ATRAVÉS DE SEU ARQUIVO XML
 
 Os dados que serão retornados são:
-* Nome cliente
-* Numero de NF (new)
-* UF
-* Peso Bruto
-* Volume
-* Valor Total
+
+- Nome cliente
+- Numero de NF (new)
+- UF
+- Peso Bruto
+- Volume
+- Valor Total
 
 # FUNCIONAMENTO
+
 Deixar os arquivos na mesma pasta
 
 Acessar o index.html
@@ -28,5 +30,11 @@ Colar no Excel. Os dados serão atribuídos a cada célula separadamente.
 # IMPORTANTE!
 
 As consultas serão realizadas em xml que contenham as tags
-* xNome, UF, pesoB, qVol, vNF, nNF
 
+- xNome => nome do estabelecimento que emitiu a nota fiscal
+- xMun => município
+- dhEmi => dia da emissão da nota fiscal
+- xProd => descrição do item
+- qCom => quantidade do produto
+- vUnCom => valor unitário do produto
+- vProd => valor total do produto
